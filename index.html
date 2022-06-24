@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Semana 13 </title>
+ <body>
+    
+<!-- Encabezado -->
+  <h1 style="text-align:center">Laboratorio 13 - 2</h1>
+<!---------------------------------------------------------------->
+
+<!-- Botones del Navegador -->
+<nav class="navbar navbar-light bg-light">
+
+
+
+
+
+
+  <div class="container-fluid">
+         <div id="bontessuperioresizqui">
+
+            <div class="botonesdebarra">
+             <a class="btn barradenavegacion"  href="index.html" id="botonpaisajes">PAISAJES</a>
+             <a class="btn barradenavegacion"  href="costa.html" id="botoncosta">COSTA</a>
+             <a class="btn barradenavegacion"  href="sierra.html" id="botonsierra">SIERRA</a>
+             <a class="btn barradenavegacion"  href="selva.html" id="botonselva">SELVA</a>
+            </div>
+
+            <div class="dropdown" style="float:left;">
+             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">CULTURA</a>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <li><a class="dropdown-item" href="selva.html">DANZA</a></li>
+               <li><a class="dropdown-item" href="#">LITERATURA</a></li>
+               <li><a class="dropdown-item" href="#">CIENCIA</a></li>
+               <li><a class="dropdown-item" href="#">DEPORTE</a></li>
+             </ul>
+           </div>
+
+         </div>
+           
+             <form class="d-flex">
+               <input class="form-control me-2" type="search" placeholder="¿QUÉ BUSCAS?" aria-label="Search" style="text-align:center">
+               <button class="btn btn-outline-success" type="submit" id="botonbuscar">BUSCAR</button>
+               <a id="botonregistrate" class="btn barradenavegacion"  href="paginaderegistrol.html">REGÍSTRATE</a>
+           </form>
+
+  </div>
+</nav>
+<!---------------------------------------------------------------->
+
+<!-- carrusel 1 y su texto-->
+    <div class="carruselytexo">
+<!-- carrusel 1 -->
+      <div id="carouselExampleIndicators1" class="carousel slide minicarrusel" data-bs-ride="true">
+
+        <!--  Botones Inferiores-->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+        <!--  Imagenes -->
+          <div class="carousel-inner">
+    
+                <div class="carousel-item active">
+                  <img src="ruleta/ruleta costa/Costa Verde.png" class="d-block w-100 costa" alt="..." >
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta costa/Camana.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta costa/Mancora.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta costa/Paracas.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta costa/Pimentell.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+          </div>
+        <!--  Botones Laterales -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    
+      </div>
+<!-- texto del carrusel 1-->
+        <div class="textocarrusel  col-12"> 
+          Faltan palabras para describir a nuestro pais. Perú es un país maravilloso y es el destino de miles de viajeros cada año, especialmente jóvenes, que han empezado a querer descubrir las maravillas de América del Sur. No todo el mundo lo sabe, pero Perú tiene algunas de las playas más hermosas del mundo: no sólo porque se encuentran en paisajes que parecen sacados de un cuento de hadas, sino también porque sus aguas son tan claras y cristalinas que atraen hasta a los turistas más exigentes.
+        </div>
+    </div>
+<!---------------------------------------------------------------->
+
+
+<!-- carrusel 2 y su texto-->
+    <div class="carruselytexo">
+<!-- texto del carrusel 2-->
+        <div class="textocarrusel" id="textodelcarrusel2"> 
+          Cuando pensamos en la sierra peruana se nos vienen a la mente imágenes realmente hermosas. ¿Cómo no enamorarse de la imponente Cordillera Vilcatona en Cusco o el increíble cielo azul de Granja Porcón en Cajamarca? Sin duda estos lugares nos demuestran que el Perú ha sido bendecido por la naturaleza. Solo por mencionar un par de ejemplos de un sinnumero de hermosos paisajes que tenemos en nuestro hermosa serrania peruana.
+        </div>
+<!-- carrusel 2 -->
+        <div id="carouselExampleIndicators2" class="carousel slide minicarrusel" data-bs-ride="true">
+  
+          <!--  Botones Inferiores-->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+          <!--  Imagenes -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="ruleta/ruleta sierra/Cajamarca.jpg" class="d-block w-100 costa" alt="..." >
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta sierra/Ancash.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta sierra/Huanuco.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta sierra/La Libertad.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="ruleta/ruleta sierra/PASCO.jpg" class="d-block w-100 costa" alt="...">
+                </div>
+    
+        </div>
+      
+        
+          <!--  Botones Laterales -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+  
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+              </button>
+    
+        </div>
+    </div>
+<!---------------------------------------------------------------->
+
+
+<!-- carrusel 3 y su texto1-->
+<div class="carruselytexo ultimocarrusel">
+  <!-- carrusel 3 -->
+        <div id="carouselExampleIndicators3" class="carousel slide minicarrusel" data-bs-ride="true">
+  
+          <!--  Botones Inferiores-->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+          <!--  Imagenes 3 -->
+            <div class="carousel-inner">
+      
+              <div class="carousel-item active">
+                <img src="ruleta/ruleta selva/Amazonas.jpg" class="d-block w-100 costa" alt="..." >
+              </div>
+  
+              <div class="carousel-item">
+                <img src="ruleta/ruleta selva/Cuzco.jpg" class="d-block w-100 costa" alt="...">
+              </div>
+  
+              <div class="carousel-item">
+                <img src="ruleta/ruleta selva/Iquitos.jpg" class="d-block w-100 costa" alt="...">
+              </div>
+  
+              <div class="carousel-item">
+                <img src="ruleta/ruleta selva/Madre de dios.jpg" class="d-block w-100 costa" alt="...">
+              </div>
+  
+              <div class="carousel-item">
+                <img src="ruleta/ruleta selva/Ucayali.jpg" class="d-block w-100 costa" alt="...">
+              </div>
+      
+            </div>
+          <!--  Botones Laterales -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+  
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      
+        </div>
+  <!-- texto del carrusel 3-->
+          <div class="textocarrusel"> 
+            La selva es uno de los tesoros del Perú. Se trata de una zona que alberga flora y fauna muy diversa e importante para la conservación del ecosistema. Debido a ello, posee lugares de gran belleza que todos deberían visitar alguna vez. Recorrer la selva peruana es un sueño para muchos viajeros, Tal vez puedas visitarla pronto con tu familia o amigos.
+          </div>
+      </div>
+<!---------------------------------------------------------------->
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
